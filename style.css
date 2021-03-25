@@ -24,8 +24,10 @@ body {
 }
 
 h1.hedline {
-    float: right;
+    /* float: right; */
     margin: 10px 10px;
+    text-align: center;
+    color: #05fbfb;
 }
 
 .topbarwraper {
