@@ -4,50 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" type="text/css" rel="stylesheet"/> 
-    <script src="https://kit.fontawesome.com/07f548ab96.js" crossorigin="anonymous"></script>
-    <title>Rayhan Technical</title>
+    <title>RK Technical</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 </head>
+
 <body>
-    <header id="topbar">
-     <div class="container">
-         
-       <div class="topbarwraper">
-        <h1 class="hedline">Rayhan Technical</h1>
-           
-           
-       </div>
-       
-           
-           
-       <input type="checkbox" id="check">
-       <label for="check">
-        <i class="fas fa-bars" id="btn"></i>
-        <i class="fas fa-times" id="cancel"></i>
-      </label>
-       
-      <div class="sidebar">
-        
-      <ul>
-    <li><a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
-    <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
-    <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
-    <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
-    <li><a href="#"><i class="far fa-question-circle"></i>About</a></li>
-    <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
-    <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
-    </ul>
-    </div>
 
+    <header>
+        <div class="logo">
+            <h1><span>RK</span> Technical</h1>
+        </div>
 
+        <div class="user" id="mobilmenuicon"> 
+            
+                <i class="fas fa-bars" ></i>
+            
+            
+          </div>
+
+     <div class="nav">
+        <nav class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#intro">About</a></li>
+            <li><a href="">Our Servese</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Menu</a></li>
+        </nav>
      </div>
+
     </header>
 
+    <section class="banner" id="home">
+        <div class="banner-text">
+            <h2>Wellcome Our Page </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, id obcaecati voluptatibus aspernatur assumenda ratione tempore iusto non eius expedita?</p>
+            <a class="vow" href="#">View Our Works</a>
+        </div>
+        <div class="down">
+            <a href="#"><i class="fa fa-angle-down"></i></a>
+        </div>
 
 
-    <div class="container"></div>
-     <div class="container"></div>
-     <div class="container"></div>
+    </section>
 
+    <section class="intro-contant" id="intro">
+        <div class="intro-text">
+            <h1>Introducing</h1>
+            <p>Hello, We are Page.Team. What We Can Do?</p>
+        </div>
+        <div class="intro-card">
+
+         <div class="card">
+            <!-- <i class="fa fa-pencil-square"></i> -->
+            <i class="fas fa-home"></i>
+            <h1>Web & Design</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, suscipit!</p>
+         </div>
+         <div class="card">
+            <i class="fa fa-rocket"></i>
+            <h1>Corporate Design</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laudantium temporibus saepe labore
+                consequuntur soluta quidem aliquid qui cupiditate eos.</p>
+         </div>
+         <div class="card">
+            <!-- <i class="fa fa-diamond"></i> -->
+            <i class="fas fa-user"></i>
+            <h1>Mystirious Tool</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus laudantium temporibus saepe labore
+                consequuntur soluta quidem aliquid qui cupiditate eos.</p>
+         </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="flex-container">
+        <div class=" item item1"></div>
+        <div class=" item item2"></div>
+        <div class=" item item3"></div>
+        <div class=" item item4"></div>
+    </div>
+
+    <div class="tex">
+        <p>
+            Lorem ipsum daliquid quos perferendis? Iste soluta doloremque sed, facilis tempore hic ad odit, vitae et tempora maxime ullam recusandae nostrum? Eveniet, minus? Ex ipsa consectetur nisi, optio commodi officiis alias sunt dolores magni quaerat nobis reiciendis. Ipsum quod facere molestias ratione fuga quasi sunt quaerat perspiciatis, distinctio recusandae. Cum veritatis impedit excepturi sunt, dicta officiis laborum corrupti expedita tempore eaque, sed, architecto voluptatem eum totam laudantium. Provident corrupti quasi nulla? Omnis ea, illo error quam vel blanditiis magni temporibus, doloribus nemo consequuntur nisi itaque distinctio, iure rem deserunt necessitatibus! Consequatur, blanditiis! Officiis reprehenderit consequatur debitis iure?
+        </p>
+    </div>
+    <script>
+
+        const mobileClick = document.querySelector("#mobilmenuicon");
+        mobileClick.addEventListener("click",function(){
+        // alert("hwlli");
+        this.querySelector("i").classList.toggle("fa-times");
+        
+        const nav = document.querySelector(".navbar");
+        nav.classList.toggle("shownav");
+
+
+
+
+        });
+       
+    </script>
 </body>
 </html>
