@@ -1,0 +1,184 @@
+
+@media screen and (max-width:500px) {
+    h1 {
+    width: 230px;
+    padding: 0 10px;
+    }
+    
+    .logo {
+     left:-35px; 
+    position: relative;
+    }
+    .user {
+        display: block;
+        position: relative;
+        top: 10px;
+        right: -150px;
+        font-size: 40px;
+        color: #85ff00;
+        
+    }
+    
+    .shownav{ right: 600px !important; }
+    
+    .nav {
+    display: block;
+    position: absolute;
+    }
+    
+    nav.navbar {
+        position: relative;
+        background: black;
+        height: 100vh;
+        width: 225px;
+        top: -15px;
+        right: 826px; 
+        display: block;
+        transition: all 1.5s;
+    }
+    
+    li {
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid #696565;
+    }
+    
+    li:hover { border-bottom: 1px solid #fdfbfb; }
+    
+    a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: none;
+    
+    }
+    /* .user a i:hover {
+        border: 1px solid gray;
+    } */
+    
+    /* Home Page and banner css */
+    section#home {
+        width: 100%;
+        height: 550px;
+        position: relative;
+        top: 64px;
+        color: white;
+        background: #191a5091;
+    }
+    
+    .banner-text {
+        left: 0;
+        top: 10px;
+        position: relative;
+        width: 483px;
+        height: 400px;
+    }
+    
+    .banner-text h2 {
+        position: relative;
+        top: 0px;
+        left: 0%;
+        /* height: 70px; */
+        /* width: 448px; */
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .banner-text a {
+        color: #fdfafa;
+        background: #0120f9;
+        padding: 16px 35px;
+        border-radius: 10px;
+        /* transition: all 5s; */
+        position: relative;
+        top: 50px;
+        left: 131px;
+    }
+    
+    .down a i {
+        border: 1px solid #fbf6f6;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        font-size: 50px;
+        padding: 7px 14px;
+        position: relative;
+        left: 40%;
+        top: 5px;
+        color: red;
+    }
+    
+    /* Intro-contant and css */
+    
+    section#intro {
+        width: 100%;
+        height: 180vh;
+        position: relative;
+        top: 0px;
+        /* padding: 10px 30px; */
+        display: flex;
+        flex-direction: column;
+    }
+    .intro-text {
+        position: relative;
+        top: 73px;
+        left: 17%;
+        color: white;
+        display: inline-block;
+    }
+    .intro-text h1 {
+        font-size: 45px;
+        color: #ebef07;
+        display: inline-block;
+    }
+    .intro-text p {
+        font-size: 20px;
+        position: relative;
+        right: 50px;
+        top: 0px;
+    }
+    .intro-card {
+        position: relative;
+        right: 100px;
+        top: 100px;
+        display: flex;
+        flex-direction: column;
+        height: 223vh;
+        /* border: 1px solid red; */
+    }
+    .card {
+        position: relative;
+        justify-content: space-between;
+        align-content: space-between;
+        text-align: center;
+        width: 375px;
+        height: 48vh;
+        top: 10px;
+        left: 130px;
+        /* padding: 0px 10px; */
+        margin: 10px 0px;
+        background: #191a5091;
+        border-radius: 10px;
+    }
+    .card i {
+        font-size: 40px;
+        color: #efff00fa;
+        position: relative;
+        top: 31px;
+        left: 100px;
+    }
+    .card h1 {
+        color: white;
+        position: relative;
+        top: 90px;
+        right: 15px;
+        font-size: 22px;
+        display: inline;
+    }
+    .card p {
+        top: 130px;
+        position: relative;
+        color: #e4dbdb;
+        text-align: justify;
+        text-transform: capitalize;
+    }
+    
+    }
