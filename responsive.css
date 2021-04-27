@@ -3,7 +3,7 @@
 
 @media screen and (max-width:425px){}
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:480px) {
 
     header {
         position: fixed;
@@ -22,7 +22,7 @@
         display: block;
         position: relative;
         top: 8px;
-        right: 0px;
+        left:80px;
         font-size: 35px;
         color: #85ff00;
     }
